@@ -91,7 +91,7 @@ const Navbar = () => {
 
           {/* Tablet Navigation (md:lg) */}
           <div className="hidden md:flex lg:hidden items-center space-x-6">
-            {navLinks.slice(0, 2).map((link, index) => (
+            {navLinks.slice(0, 2).map((link) => (
               <div
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}

@@ -126,7 +126,9 @@ const Testimonials = () => {
     };
 
     api.on("select", updateIndex);
-    return () => api.off("select", updateIndex);
+    return () => {
+      api.off("select", updateIndex);
+    };
   }, [api]);
 
   // Auto-play functionality
