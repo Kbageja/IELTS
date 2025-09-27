@@ -190,7 +190,7 @@ const NewsletterSignup = () => (
         placeholder="Your email"
         className="flex-1 bg-white/10 border border-white/20 rounded px-3 py-2 text-xs sm:text-sm placeholder:text-primary-foreground/60 focus:outline-none focus:border-accent min-w-0"
       />
-      <button className="bg-accent hover:bg-accent/90 text-white px-3 sm:px-4 py-2 rounded text-xs sm:text-sm font-medium transition-colors whitespace-nowrap">
+      <button className="bg-white hover:bg-accent/90 text-black px-3 sm:px-4 py-2 rounded text-xs sm:text-sm font-medium transition-colors whitespace-nowrap">
         Subscribe
       </button>
     </div>
